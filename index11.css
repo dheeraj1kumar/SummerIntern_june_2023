@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(224, 157, 157);
+}
+.container1{
+
+border: 5px solid burlywood;
+    height: 100%vh;
+    width: 100%vw;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure{
+    width: 360px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 3px rgb(0,0,0,0,26);
+    margin: 20px;
+    justify-content: space-between;
+
+}
+
+figure img{
+    width: 100%;
+}
+
+figure:hover{
+    transform:scale(1,0.8) ;
+}
+@media screen and (max-width:200px) {
+    nav{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+    }
+    
+}
+
+
